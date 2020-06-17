@@ -1,0 +1,54 @@
+.head-nav-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #323235;
+}
+.head-nav{
+    display: flex;
+    align-items: center;
+}
+.nav_left,.nav_mid,.nav_right{
+    float:left;
+}
+.nav_left{
+    padding:13px 40px 13px 0;
+}
+.nav_mid{
+    display: flex;
+    justify-content: center; 
+}
+.nav_mid li{
+    padding: 16px 19px;
+}
+.nav_mid li a{
+    font-size: 18px; 
+    color: #C9C9DD;  
+}
+.nav_mid li em{
+    display: flex;
+    justify-content: center;
+    font: 12px/1.5 "Microsoft YaHei",Tahoma,"simsun",sans-serif;
+    padding-top: 10px;
+    color: #858792;
+}
+/* 导航条右侧开始 */
+.nav_right{
+    margin-left: 20px;
+    width: 168px;
+}
+.nav_right > a{
+    float: left;
+    border: 1px solid #F7DC6F;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.nav_right .welcome_signIn span{
+    display: block;
+    font-size: 12px;
+    margin-top: 4px;
+    color: #858792;
+}
+.nav_right .welcome_signIn a{
+    color:#FFF;
+}
