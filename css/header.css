@@ -4,51 +4,61 @@
     box-sizing: border-box;
     font-family: "Microsoft YaHei",Tahoma,"simsun",sans-serif;
 }
+*:after{
+    box-sizing: border-box;
+}
 ul,ol{
     list-style: none;
 }
 a{
     text-decoration: none;
 }
+em{
+    font-style: normal;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: normal;
+}
+
 .clearfix::after{
     display: block;
     content: "";
     clear: both;
 }
-.ost_box-wrapper{
+.ost-box-wrapper{
     width: 100%;
     display: flex;
     justify-content: center;
     background: #f5f5f5;
 }
-.ost_box{
+.ost-box{
     width: 980px;
     display: flex;
     justify-content: space-between;
     
 }
-.ost_box ul {
+.ost-box ul {
     display: flex;
     justify-content: space-between;
 }
-.ost_box  .tencent_game_logo img{
+.ost-box  .tencent-game-logo img{
     width: 150px;
     height: 41px;
 }
-.ost_box  .tencent_blank_logo img{
+.ost-box  .tencent-blank-logo img{
     width: 230px;
     height: 41px;
 }
-.ost_box .list_right{
+.ost-box .list-right{
     width: 210px;
     display: flex;
     align-items: center;
     font: 14px/1.5 "Microsoft YaHei",Tahoma,"simsun",sans-serif;
     
 }
-.ost_box .list_right a{
+.ost-box .list-right a{
     color:#464646;
 }
-.ost_box .list_right a:hover{
+.ost-box .list-right a:hover{
     color:#ff4e00;
 }

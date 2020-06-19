@@ -1,0 +1,422 @@
+.content-center{
+    max-width: 872px;
+}
+.content-item-title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+}
+.content-item-title .content-read-more{
+    color: #999999;
+    font-size: 14px;
+}
+.content-navBar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16px;
+    background: #F5F5F5;
+
+}
+.content-navBar a{
+    font-size: 14px;
+    color: #999999;
+    padding-left: 117px;
+    padding-right: 116px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-bottom: 3px solid transparent;
+}
+.content-navBar .split{
+    width: 1px;
+    height: 20px;
+    overflow: hidden;
+    float: left;
+    background: #e1e1e1;
+    display: inline-block;
+    margin: 5px 0 0px;
+}
+.content-navBar a:hover{
+    border-bottom: 3px solid #f3c258;
+    color: #333333;
+}
+.nav-Tags{
+    padding: 8px 0 9px 0;
+    margin-top: 4px;
+}
+
+.nav-Tags a{
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 2px 17px 2px 12px;
+    color: #333333;
+    background: #F5F5F5;
+    margin-right: 4px;
+}
+.nav-Tags a:hover{
+    color: #FFFFFF;
+    background: #F3C258;
+}
+.video-list{
+}
+.video-list-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -8px;
+    margin-left: -2px;
+}
+.video-list>ul>li{
+    margin-bottom: 30px;
+}
+.video-list>ul>li>a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 212px;
+    position: relative;
+    margin-right: 8px;
+}
+.video-list>ul>li>a>img{
+    width: 209px;
+    height: 125px;
+}
+.video-list .play-bar{
+    width: 209px;
+    position: absolute;
+    top: 104px;
+    left: 2px;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.video-list .video-title{
+    color: #333333;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+    max-width: 212px;
+}
+.hero-and-skin{
+    max-width: 295px;
+    margin-left: 28px;
+}
+.hero-and-skin .item-title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+}
+.hero-and-skin .item-title .read-more{
+    color: #999999;
+    font-size: 14px;
+}
+.aside-content-navBar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16px;
+    background: #F5F5F5;
+}
+.aside-content-navBar a{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    color: #999999;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-bottom: 3px solid transparent;
+}
+.aside-content-navBar a:hover{
+    border-bottom: 3px solid #f3c258;
+}
+.aside-content-navBar .split{
+    width: 1px;
+    height: 20px;
+    overflow: hidden;
+    float: left;
+    background: #e1e1e1;
+    display: inline-block;
+    margin: 5px 0 0px;
+}
+.new-hero{
+    margin-top: 12px;
+}
+.new-hero a{
+    display: flex;
+    align-items: center;
+}
+.new-hero .hero-introduction{
+    padding: 13px 15px 12px 15px;
+    border: 1px solid #e5e5e5;
+    border-top: none;
+    border-radius: 0 0 2px 2px;
+}
+.new-hero .new-hero-name{
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+}
+.new-hero .hero-introduction .online-time{
+    color: #999999;
+    font-size: 12px;
+    margin-top: 2px;
+}
+.main-content {
+    max-width: 1200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero_pic_list{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+/* 赛事中心-start */
+.race-infomation{
+    /* border: 1px solid red; */
+    max-width: 1200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.race-center{
+    max-width: 872px;
+}
+.race-item-title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+}
+.race-item-title .read-more{
+    color: #999999;
+    font-size: 14px;
+}
+.race-item-navBar{
+    display: flex;
+    justify-content: space-around;
+    background: #F5F5F5;
+    margin-top: 16px;
+    margin-bottom: 19px;
+}
+.race-item-navBar a{
+    font-size: 14px;
+    color: #999999;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-bottom: 3px solid transparent;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+.race-item-navBar a:hover{
+    border-bottom: 3px solid #f3c258;
+}
+.race-item-navBar .split{
+    width: 1px;
+    height: 20px;
+    overflow: hidden;
+    float: left;
+    background: #e1e1e1;
+    display: inline-block;
+    margin: 5px 0 0px;
+}
+.race-news{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.race-news a{
+    display: flex;
+    align-items: center;
+}
+.race-news-list{
+    max-width: 630px;
+}
+.race-first-new{
+    margin-bottom: 10px;
+}
+.race-first-new a{
+    font-size: 14px;
+    color:#666666;
+}
+.news-text{
+        /* 可以复用 */
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+}
+.race-first-new  .first-link{
+    font-size: 24px;
+    color:#333;
+    max-width: 577px;
+}
+.race-news-list .news-list{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.race-news-list li{
+    display:flex;
+    justify-content: space-between;
+    min-width: 630px;
+}
+
+.race-news-list .news-type{
+    font-size: 12px;
+    color: #999999;
+    display: flex;
+    align-items: center;
+    padding:2px 15px 3px 15px;  
+    border: 1px solid #e3e3e3;
+    border-radius:10px;  
+    background: #e3e3e3; 
+}
+.race-news-list .news-title{
+    font-size: 14px;
+    color: #333333;
+}
+.race-news-list .news-time{
+    font-size: 12px;
+    color: #b8b9c5;
+    margin-right: 10px;
+}
+.race-news-list .first-part{
+    display: flex;
+}
+
+.video-list-wrapper{
+    /* 62行有相同的 */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.race-video-list>ul>li{
+    margin-right: 8px;
+    margin-bottom: 30px;
+}
+
+.race-video-list>ul>li>a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 212px;
+    position: relative;
+}
+.race-video-list .video-cover{
+    width: 209px;
+    height: 125px;
+}
+.race-video-list .play-bar{
+    width: 209px;
+    background: rgba(46, 30, 30, 0.8);
+    position: absolute;
+    left: 2px;
+    top: 104px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.race-video-list .video-title{
+    font-size: 14px;
+    color: #333333;
+    height: 40px;
+    overflow: hidden;
+    display: block;
+    margin-top: 10px;
+}
+.kpl-timeTable{
+    max-width: 295px;
+    margin-left: 35px;
+}
+.timeTable-title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.title-left-part{
+    font-size: 22px;
+}
+.title-right-part{
+    display: flex;
+
+}
+.title-right-part .buy-ticket{
+    border: 2px solid #f3c258;
+    margin-right: 32px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #333333;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.title-right-part .read-more{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #999999;
+}
+.timeTable-navBar{
+    font-size: 14px;
+    color: #999;
+    display: flex;
+    align-items: center;
+    background: #f5f5f5;
+    border-bottom: 3px solid transparent;
+}
+.timeTable-navBar  span{
+    padding-left: 28px;
+    padding-right: 27px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.timeTable-navBar .battle-teams{
+    width:210px;
+    display: flex;
+    justify-content: space-between;
+}
+.battle-teams .visiting-team-name{
+    margin-right: 6px;
+}
+.battle-infomation{
+    font-size: 12px;
+    color: #333;
+    display: flex;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 21px;
+}
+.battle-infomation .match-time{
+    padding: 0 9px;
+    display: flex;
+    align-items: center;
+}
+.home-team-introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 79px;
+}
+.home-team-introduction img{
+    width: 25px;
+    height: 25px;
+}
+.vs{
+    font-size:16px;
+    color: #f3c258;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 43px;
+}
+.match-ad a>img{
+    vertical-align: middle;
+}

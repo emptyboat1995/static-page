@@ -1,133 +1,124 @@
 .gameBox-wrapper{
-    background: url('../images/main_background.jpg');
     min-height: 1100px;
-    width: 100%;
+    background: url('../images/main_background.jpg');
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     position: relative;
 }
 .gameBox{
-    max-width: 1200px;
-    background: #323235;
+    min-width: 1200px;
+    display: flex;
+    background-color: #323235;
+    max-height: 342px;
+    overflow: hidden;
     position: absolute;
-    top:550px;
-    left:50%;
-    margin-left: -600px;
+    bottom: 228px; 
 }
-.gameBox .left_box{
-    float: left;
-    width: 604px;
+
+.gameBox .left-box{
+    border-right: 1px solid #b1b2be;
 }
-.gameBox .left_box ul li{
-    padding:12px 4px;
-    float: left;
-    color:#b1b2be;
+.left-box>a{
+    display: flex;
+    align-items: center;
+}
+.left-box ul{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-box ul li{
+    
     font-size: 14px;
-    width: 120px;
-    text-align: center;
+    color:#b1b2be;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    padding-left: 11px;
+    padding-right: 11px;
+
+}
+.left-box ul li:hover{
+    color:#f3c258;
+    background: rgba(255, 255, 255, 0.15);
 }
 
-.gameBox .left_box ul li a{
-    cursor: pointer;
-}
-.gameBox .left_box ul li:hover{
-    background: rgba(255,255,255,0.15);
-    color: #f3c258;
-}
-
-/* mid_box开始 */
-.gameBox .mid_box{
-    float: left;
-    width: 358px;
-    /* border: 1px solid greenyellow; */
+.gameBox .mid-box{
     padding-left: 16px;
-    border-left: 1px solid #414046;
-
+    padding-right: 16px;
+    width: 359px;
 }
-.mid_box .nav-bar ul{
+.mid-box .nav-bar{
     border-bottom: 1px solid black;
-
 }
-.mid_box .nav-bar ul li{
-    float: left;
-    margin-left: 4px;
-    padding:12px 10px;
-    border-bottom: 3px solid transparent;
+.mid-box .nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+}
+.mid-box .nav-bar ul li{
+    font-size: 14px;
     color: #B8B9C5;
+    padding: 11px 12px; 
+    border-bottom: 4px solid transparent;
 }
-.mid_box .nav-bar ul li:hover{
+.mid-box .nav-bar ul li:hover{
     color:#f3c258;
-    border-bottom: 3px solid #f3c258;
+    border-bottom: 4px solid #f3c258;
 }
-.mid_box .news-title{
-    /* border: 1px solid greenyellow; */
-    margin-top: 16px;
-    background-color: #414046;
-}
-.news-box .news-title{
+
+.mid-box .news-box .news-title{
+    
     font-size: 18px;
-    color:#f3c258;
-    margin-left: 10px;
-    padding-top:6px;
-    padding-bottom:6px;
+    color: #f3c258;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
-.news-box .news-list{
-    /* border: 1px solid greenyellow; */
-    padding-left: 10px;
-    margin-top: 10px;
+.mid-box .news-box .news-list ul{
+    display: flex;
+    flex-direction: column;
 }
-.news-box .news-list li{
-    border: 1px solid red;
-    margin-bottom: 8px;
+.news-box .news-list ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 9px;
+    padding-bottom: 6px;
 }
-.news-box .news-list .news-icon{
+.news-list .news-icon{
     color: #1e96ab;
     border: 1px solid #1e96ab;
-    padding-left: 4px;
-    padding-right:4px;
     font-size: 12px;
 }
-.news-box .news-list .news-list-title{
+.news-list .news-list-title{
     font-size: 14px;
-    color:#B8B9C5;
-    /* border: 1px solid greenyellow; */
-    display: inline-block;
-    width: 230px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
+    color: #b8b9c5;
 }
-.news-box .news-list .news-time{
-    /* border: 1px solid blue; */
-    margin-left: 12px;
+.news-list .news-time{
     font-size: 12px;
     color: #999999;
 }
-/* right_box开始 */
-.right_box{
-    float:left;  
+
+.gameBox .right-box .img-box{
+    display:flex;
+    align-items:center;
 }
-/* other-part开始 */
-.other-part{
-    max-width: 1200px;
+.gameBox-wrapper .other-part{
+    margin-top: 24px;
+    min-width: 1200px;
+    display: flex;
+    justify-content: space-between;
     position: absolute;
-    bottom: 0;
-    left: 50%;
-    margin-left: -600px;
+    bottom: 64px;
 }
-.other-part a{
-    width: 291px;
-    height: 134px;
-    display: inline-block;
-    margin-left: 6px;
-    vertical-align: top;
+.other-part a {
+    display: flex;
+    align-items: center;
 }
-.other-part a:first-child{
-    margin-left: 0;
-}
-/* 鼠标悬浮,图片靠近 */
-.other-part a img{
+.other-part  img{
     transition: all 0.5s;
 }
 .other-part a:hover img{
     transform: scale(1.2);
 }
-
