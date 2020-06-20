@@ -1,5 +1,5 @@
 .content-center{
-    max-width: 872px;
+    min-width: 872px;
 }
 .content-item-title{
     display: flex;
@@ -101,7 +101,7 @@
     max-width: 212px;
 }
 .hero-and-skin{
-    max-width: 295px;
+    min-width: 295px;
     margin-left: 28px;
 }
 .hero-and-skin .item-title{
@@ -183,7 +183,7 @@
     margin-right: auto;
 }
 .race-center{
-    max-width: 872px;
+    min-width: 872px;
 }
 .race-item-title{
     display: flex;
@@ -331,7 +331,7 @@
     margin-top: 10px;
 }
 .kpl-timeTable{
-    max-width: 295px;
+    min-width: 295px;
     margin-left: 35px;
 }
 .timeTable-title{
