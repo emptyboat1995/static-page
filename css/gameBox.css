@@ -35,8 +35,10 @@
     color:#b1b2be;
     padding-top: 13px;
     padding-bottom: 12px;
-    padding-left: 11px;
-    padding-right: 11px;
+    /* padding-left: 11px;
+    padding-right: 11px; */
+    width: 121px;
+    text-align: center;
 
 }
 .left-box ul li:hover{

@@ -1,5 +1,5 @@
 .head-nav-wrapper{
-    max-height: 82px;
+    max-height: 84px;
     width: 100%;
     background: rgba(0,0,0,0.8);
 }
@@ -24,7 +24,7 @@
     align-items: center ;
     width: 110px;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 14px;
     border-bottom: 3px solid transparent;
 }
 .head-nav .nav-mid li:hover{
@@ -40,7 +40,7 @@
 .nav-mid li span{
     font-size: 12px;
     color: #858792;
-    padding-top: 12px;
+    margin-top: 12px;
 }
 
 .head-nav .nav-right{
